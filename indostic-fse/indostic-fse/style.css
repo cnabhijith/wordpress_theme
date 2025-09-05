@@ -1,0 +1,275 @@
+/*
+Theme Name: Indostic FSE
+Theme URI: https://gracethemes.com/themes/indostic-fse/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The Indostic FSE is a free factory WordPress theme design for industrial, machinery, manufacturer, manufacturing, production, products, supplier, textile, trading, healthcare, mining, agriculture, farming, construction, textiles, automotive, education, entertainment, aerospace, tourism, and many more. This theme is highly aesthetically pleasing and compatible with the latest version of WordPress. The Indostic FSE theme's homepage is incredibly eye-catching. This theme is compatible with a wide range of SEO plugins, including Yoast SEO and Rank Math. This WordPress theme offers a wide range of customizable blog options and layouts. This WordPress theme is flexible and dynamic. Regardless of resolution quality, anyone may easily use this theme. This WordPress theme is compatible with a wide range of devices. This implies that you can use this theme on any smart device, including smartphones, tablets, laptops, PCs, and more. With pride, the internet behemoth Google has approved this theme for its mobile-friendly test. Because of all these features, the Indostic FSE theme is the ideal choice for you.
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: indostic-fse
+Requires PHP:  5.6
+Tested up to: 6.8.2
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Indostic FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2025.
+Indostic FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body.page-template-front .site-main-header {  
+	width:100%; 
+	z-index:999;
+}
+.site-main-header{  
+	position:relative;
+}
+.clear{ clear:both; }
+.wp-block-group.header-nav-bar{ margin-top:-36px !important; position:relative; z-index:9999;}
+.wp-block-group.header-main-banner{ margin-top:-33px !important }
+
+/*dropdown menu background color*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ 
+	background-color:#00173b;
+}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{ 
+	padding:5px 0; 
+	border-bottom:1px solid #364e73 !important;
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{ 
+	padding-top:30px !important
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu li ul{ 
+	padding-top:0 !important; 
+	left:100% !important; 
+	right:auto !important;
+}
+
+.header-navigation.wp-block-navigation{ 
+	padding:5px 0 !important;
+}
+.logo { 
+	position: relative;
+}
+.logo:before{ 
+	background-color:#ff5101; 
+	content:""; 
+	display:block; 
+	height:95%; 
+	position:absolute; 
+	left:-999998px; 
+	top:0;
+	width:999998px;
+}
+.logo:after  {
+	content:''; 
+	position: absolute; 
+	right: -59px; 
+	width: 0; 
+	height: 0; 
+	border-top: 100px solid #ff5101; 
+	border-right:60px solid transparent; 
+	top:0px;
+}
+
+.wp-block-group.header-main-banner{ 
+	position:relative;
+}
+.fse-sections-02{ 
+	position:relative !important;
+}
+.welcome-wrap{ 
+	position:relative !important; 
+	z-index:9999;
+}
+.indo_wel_small{ 
+	margin-top:-220px !important; 
+	position:relative; 
+	z-index:999;
+}
+
+
+.wp-block-cover.indo-cover-box .wp-block-cover__inner-container{ 
+	position:absolute!important; 
+	bottom:15px!important; 
+	width:90%!important;
+}
+.indo-infobox p, .indo-infobox .wp-block-button__link{ 
+	display:none;
+}
+.indo-4col:hover .indo-infobox p{ 
+	display:block; 
+	color:#222 !important;
+}
+.indo-4col:hover .wp-block-button__link{ 
+	display:block; 
+}
+.indo-4col:hover .indo-infobox h5{ 
+	color:#222 !important;
+}
+.indo-4col:hover .indo-infobox{
+	 background-color:#fff !important
+}
+
+
+
+/* = Sidebar CSS
+----------------------------------------------- */
+.st-widgetBX ul.wp-block-latest-posts li{ 
+	margin-bottom:20px; 
+	min-height:80px;
+}
+.st-widgetBX ul.wp-block-latest-posts li a.wp-block-latest-posts__post-title{ 
+	margin-bottom:5px !important; 
+	display:block; 
+	line-height:20px;
+}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+	margin:30px 0 0;padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;	
+	color:#797979;
+	margin-bottom:0;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	height:40px;
+	padding:0 15px;
+}	
+.wpcf7 textarea{
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;	
+	cursor:pointer;
+	background-color:#60c19f;
+	padding:20px 40px;
+	color:#ffffff;
+	font-weight:600;
+	border:none;
+	font-size:16px;
+	width:auto;	
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ 
+	margin:0; 
+	padding:0; 
+}
+ul.blog-list-style li{ 
+	margin-bottom:40px; 	
+	display:flow-root; 
+	
+}
+ul.blog-list-style li .blog-thumbnail{ 
+	 width:35% !important; 
+	 float:left!important; 
+	 margin:0 35px 30px 0!important;
+}
+ul.blog-list-style li a.wp-block-post-excerpt__more-link{ 
+	padding:10px 20px; 
+	border-radius:10px
+}
+
+ul.blog-list-style li .blog-thumbnail.wp-block-post-featured-image a,
+ul.blog-list-style li .blog-thumbnail.wp-block-post-featured-image img{ 
+	height:auto;
+	border-radius:10px;
+}
+
+ul.blog-list-style li h3.wp-block-post-title{ 
+	display:flex;
+}
+
+
+.wp-block-group.PostStyle-1{ 
+	display:flow-root;
+}
+.wp-block-column.fse-page-layout{
+	padding:30px;
+	border-radius:5px; 
+	display:flow-root; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+
+
+.wp-block-group.st-widgetBX{
+	display:flow-root; 
+	padding:25px;
+	background-color:#f2f6ff;
+	border:1px solid #e0e6f4;
+	border-radius:15px;
+}
+
+
+/* = Footer CSS
+----------------------------------------------- */
+.site-footer{ 
+	position:relative;
+}
+.site-footer h3.wp-block-heading{ 
+	position:relative; 
+}
+
+footer.wp-block-template-part{ 
+	margin-block-start:0 !important
+}
+
+.Footer-QuickLinks{ 
+	list-style:none !important; 
+	padding:0 !important;
+}
+.Footer-QuickLinks li{ 
+	list-style:none !important; 
+	padding:5px 0 5px 0 !important;
+}
+.Footer-QuickLinks li a:hover{ 
+	text-decoration:none; 
+}
+.footer-latest-news li{ 
+	margin-bottom:10px;
+}
+.wp-block-social-links.footer-social li{ 
+	border-radius:10px;
+}
+.wp-block-social-links.footer-social li a{ 
+	padding:12px;
+}
+ul.fs-footer-post{ 
+	margin:0; 
+	padding:0;
+}
+ul.fs-footer-post li{ 
+	list-style:none; 
+	margin-bottom:30px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ 
+	margin-top:6px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ 
+	border-radius:10px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ 
+	margin-bottom:15px; 
+	display:block; 
+	line-height:22px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ 
+	color:#8cc73e;
+}
